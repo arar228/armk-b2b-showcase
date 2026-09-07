@@ -1,0 +1,16 @@
+{
+  "name": "armk-b2b-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sanitized public showcase of a B2B catalog architecture",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "security:scan": "node scripts/check-sensitive-files.mjs",
+    "check": "npm run security:scan && node --check src/catalog.js && node --check src/search.js && node --check src/server.js && node --check public/app.js && npm test"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
