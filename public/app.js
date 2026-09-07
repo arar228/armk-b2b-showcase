@@ -24,6 +24,12 @@ function render(items) {
     const card = document.createElement('article');
     card.className = 'product-card';
 
+    const image = document.createElement('img');
+    image.className = 'product-image';
+    image.src = item.image;
+    image.alt = '';
+    image.loading = 'lazy';
+
     const top = document.createElement('div');
     top.className = 'product-top';
     top.append(
@@ -32,6 +38,7 @@ function render(items) {
     );
 
     card.append(
+      image,
       top,
       createTextElement('p', 'manufacturer', item.manufacturer),
       createTextElement('h3', '', item.name),

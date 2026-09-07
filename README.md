@@ -6,6 +6,23 @@ Public, runnable showcase of a B2B catalog experience. It demonstrates clean API
 
 The production ARMK platform is maintained separately. This repository contains fictional products, generic domain concepts, and zero supplier credentials or operational configuration.
 
+> [!IMPORTANT]
+> **DEMO VERSION.** All products, manufacturers, part numbers, prices, availability labels, and photographs in this repository are fictional and generated exclusively for demonstration.
+
+## Preview
+
+<table>
+  <tr>
+    <td><img src="public/images/catalog-display.png" alt="Fictional office display demo photograph"></td>
+    <td><img src="public/images/catalog-workspace.png" alt="Fictional workplace accessories demo photograph"></td>
+    <td><img src="public/images/catalog-network.png" alt="Fictional network and storage demo photograph"></td>
+  </tr>
+</table>
+
+## Demo data
+
+The application reads a small synthetic fixture from [`src/catalog.js`](src/catalog.js). The demo has no supplier connections, production database, customer records, or commercial price calculation. The production platform integrates private data sources separately; their identities, connection methods, normalization rules, and pricing policies are outside this public repository.
+
 ## What is included
 
 - dependency-free Node.js HTTP API;

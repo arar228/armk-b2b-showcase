@@ -11,6 +11,9 @@ const staticRoutes = new Map([
   ['/', ['public/index.html', 'text/html; charset=utf-8']],
   ['/app.js', ['public/app.js', 'text/javascript; charset=utf-8']],
   ['/styles.css', ['public/styles.css', 'text/css; charset=utf-8']],
+  ['/images/catalog-display.png', ['public/images/catalog-display.png', 'image/png']],
+  ['/images/catalog-workspace.png', ['public/images/catalog-workspace.png', 'image/png']],
+  ['/images/catalog-network.png', ['public/images/catalog-network.png', 'image/png']],
 ]);
 
 function applyHeaders(response, contentType) {
