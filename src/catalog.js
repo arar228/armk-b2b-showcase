@@ -7,6 +7,7 @@ export const catalog = Object.freeze([
     category: 'Displays',
     availability: 'In stock',
     displayPriceRub: 32900,
+    image: '/images/catalog-display.png',
   },
   {
     id: 'demo-keyboard-01',
@@ -16,6 +17,7 @@ export const catalog = Object.freeze([
     category: 'Peripherals',
     availability: 'In stock',
     displayPriceRub: 6490,
+    image: '/images/catalog-workspace.png',
   },
   {
     id: 'demo-dock-usbc',
@@ -25,6 +27,7 @@ export const catalog = Object.freeze([
     category: 'Accessories',
     availability: 'Ships in 3 days',
     displayPriceRub: 18900,
+    image: '/images/catalog-workspace.png',
   },
   {
     id: 'demo-headset-pro',
@@ -34,6 +37,7 @@ export const catalog = Object.freeze([
     category: 'Communications',
     availability: 'In stock',
     displayPriceRub: 11750,
+    image: '/images/catalog-workspace.png',
   },
   {
     id: 'demo-router-ax',
@@ -43,6 +47,7 @@ export const catalog = Object.freeze([
     category: 'Networking',
     availability: 'Ships in 5 days',
     displayPriceRub: 24400,
+    image: '/images/catalog-network.png',
   },
   {
     id: 'demo-storage-2tb',
@@ -52,5 +57,6 @@ export const catalog = Object.freeze([
     category: 'Storage',
     availability: 'Limited stock',
     displayPriceRub: 20900,
+    image: '/images/catalog-network.png',
   },
 ]);
